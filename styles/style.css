@@ -68,7 +68,7 @@ img {
   justify-self:end;
 }
 .address.adress-header {
-  margin-right: 50px;
+  margin-right: 55px;
 }
 .main_content {
   position: relative;
@@ -116,7 +116,7 @@ img {
 }
 .it {
   width: 286px;
-  transform: translate(-350px, 150px);
+  transform: translate(-360px, 145px);
 }
 .you {
   width: 339px;
@@ -124,7 +124,7 @@ img {
 }
 .need {
   width: 387px;
-  transform: translate(310px, 420px);
+  transform: translate(310px, 418px);
 }
 .text_auction {
   font-weight: 400;
@@ -135,7 +135,7 @@ img {
   text-transform: uppercase;
   color: white;
   position: absolute;
-  margin: 648px 413px 61px 50px;
+  margin: 638px 413px 61px 50px;
   word-spacing: 20px;
   white-space: nowrap;
   z-index: 1;
@@ -150,16 +150,16 @@ img {
   border: 1px solid rgba(255, 255, 255, 1);
   padding: 12px 32px 11px 31px;
   position: absolute;
-  margin: 636px 50px 50px 794px;
+  margin: 620px 50px 50px 794px;
   white-space: nowrap;
   z-index: 1;
 }
 .section_lots {
-  margin: 180px 24px 27px 24px;
+  margin: 178px 24px 27px 24px;
 }
 .lots {
   font-size: 40px;
-  margin-left: 64px;
+  margin-left: 70px;
   font-weight: 700;
   font-style: Bold;
   line-height: 100%;
@@ -288,7 +288,7 @@ color: white;
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
-  margin: 20px 820px 0px 34px;
+  margin: 22px 820px 0px 32px;
   white-space: nowrap;
   border-bottom: 1px solid black;
 }
@@ -296,7 +296,7 @@ color: white;
   display: flex;
   align-items: center;
   gap: 72px;
-  margin: 85px 24px 0px 24px;
+  margin: 80px 24px 0px 24px;
 }
 .circle {
   position: absolute;
@@ -345,7 +345,7 @@ color: white;
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 190px 50px 82px 50px;
+  margin: 200px 50px 82px 50px;
 }
 .footer_ul {
   display: flex;
