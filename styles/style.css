@@ -1,5 +1,15 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+body {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+}
+img {
+  width: 100%;
 }
 .page {
   margin: 0;
@@ -8,17 +18,17 @@
   width: 1100px;
 }
 .header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
 }
 .header__links-list {
   display: flex;
   list-style: none;
   gap: 32px;
+  list-style: circle;
 }
 .header__links-list-item {
-  font-family: Raleway;
   font-weight: 400;
   font-style: Regular;
   font-size: 18px;
@@ -26,25 +36,34 @@
   letter-spacing: 0%;
   white-space: nowrap;
 }
-.header__logo {
-  padding-top: 92px;
-  padding-bottom: 96px;
+.address {
+  justify-self:end;
+}
+.text-main {
+  text-decoration: none;
+  color: black;
+}
+.text-either {
+  color:black;
 }
 .header__logo-image {
   width: 148px;
   height: 105px;
 }
+.telefon-mail {
+  color:black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
 .address {
-  margin-right: 70px;
-  margin-top: 95px;
-  margin-bottom: 100px;
-  margin-left: 184px;
-  font-family: Raleway;
+  font-style:normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 0%;
   white-space: nowrap;
+  color:black;
 }
 
 .main_content {
@@ -74,7 +93,6 @@
 .need {
   margin: 20px 0;
   z-index: 1;
-  font-family: Raleway;
   font-weight: 700;
   font-style: Bold;
   font-size: 100px;
@@ -86,18 +104,17 @@
 }
 .it {
   position: absolute;
-  margin: 165px 764px 477px 50px;
+  margin: 145px 764px 477px 50px;
 }
 .you {
   position: absolute;
-  margin: 300px 380.5px 342px 380.5px;
+  margin: 280px 380.5px 342px 380.5px;
 }
 .need {
   position: absolute;
-  margin: 435px 50px 207px 663px;
+  margin: 415px 50px 207px 663px;
 }
 .text_auction {
-  font-family: Raleway;
   font-weight: 400;
   font-style: Regular;
   font-size: 22px;
@@ -106,13 +123,12 @@
   text-transform: uppercase;
   color: white;
   position: absolute;
-  margin: 668px 413px 61px 50px;
+  margin: 648px 413px 61px 50px;
   word-spacing: 20px;
   white-space: nowrap;
   z-index: 1;
 }
 .text_stavka {
-  font-family: Raleway;
   font-weight: 256;
   font-size: 22px;
   letter-spacing: 0%;
@@ -122,7 +138,7 @@
   border: 1px solid rgba(255, 255, 255, 1);
   padding: 12px 32px 11px 31px;
   position: absolute;
-  margin: 656px 50px 50px 794px;
+  margin: 636px 50px 50px 794px;
   white-space: nowrap;
   z-index: 1;
 }
@@ -130,7 +146,6 @@
   font-size: 40px;
   margin: 180px 0 27px 0;
   margin-left: 64px;
-  font-family: Raleway;
   font-weight: 700;
   font-style: Bold;
   line-height: 100%;
@@ -141,6 +156,8 @@
   display: flex;
   gap: 20px;
   list-style: none;
+  margin-left:-24px;
+  margin-right: 0px;
 }
 .section2_li {
   flex: 1;
@@ -157,7 +174,6 @@
 .text_film,
 .text_book,
 .text_picture {
-  font-family: Raleway;
   font-weight: 700;
   font-style: Bold;
   font-size: 22px;
@@ -173,7 +189,6 @@
 .text_lection,
 .text_pages,
 .text_actually {
-  font-family: Raleway;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
@@ -267,8 +282,8 @@
 .about_auction_main {
   display: flex;
   align-items: center;
-  margin: 120px 24px 5px 24px;
   gap: 72px;
+  margin: 85px 24px 0px 24px;
 }
 .circle {
   position: absolute;
@@ -277,30 +292,29 @@
   background-color: black;
   border-radius: 100%;
   margin: 35px 765px 320px 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 .logo_2 {
   width: 148px;
-  height: 144px;
-  position: absolute;
-  padding: 55px 45.52px 62px 46.48px;
-  z-index: 1;
+  height: 114x;
 }
 .about-content {
   padding: 133px 0px 13px 359px;
 }
 .about_auction {
-  font-family: Raleway;
   font-weight: 700;
   font-style: Bold;
   font-size: 40px;
   line-height: 100%;
   letter-spacing: 0%;
   text-transform: uppercase;
-  padding: 3px 402px 100px 0px;
+  padding: 3px 402px 75px 0px;
   white-space: nowrap;
 }
 .text_here {
-  font-family: Raleway;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
@@ -308,7 +322,6 @@
   letter-spacing: 0%;
 }
 .text_hard {
-  font-family: Raleway;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
@@ -319,28 +332,29 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 180px 50px 82px 50px;
+  margin: 181px 50px 82px 50px;
 }
 .footer_ul {
   display: flex;
   list-style: none;
   flex-direction: column;
   text-align: center;
+  margin: 0px auto;
 }
 .address_footer {
-  font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 0%;
   white-space: nowrap;
+  margin-right:154.03;
 }
  .footer_logo_ul {
   display: flex;
   gap: 48px;
   list-style: none;
+  margin: 0 auto;
 }
 .footer_list_li2 {
   width: 48px;
-  
 }

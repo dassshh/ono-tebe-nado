@@ -9,21 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body class="page">
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item">главная</li>
-          <li class="header__links-list-item">посмотреть лоты</li>
-          <li class="header__links-list-item">об аукционе</li>
+          <li class="header__links-list-item"><a href="#main" class="text-main">главная</a></li>
+          <li class="header__links-list-item"><a href="#lots" class="text-either">посмотреть лоты</a></li>
+          <li class="header__links-list-item"><a href="#auction" class="text-either">об аукционе</a></li>
         </ul>
       </nav>
       <div class="header__logo">
-        <a href="/">
+        <a>
           <img
             class="header__logo-image"
             src="images/logo-black.svg"
@@ -32,15 +31,16 @@
         </a>
       </div>
       <address class="address">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="tel:+99995555555" class="telefon-mail">+9 999 555 5555</a>
         <br />
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a href="mailto:info@sobaka.ge" class="telefon-mail">info@sobaka.ge</a>
         <br />
         наб. Принсенграхт 263-<br />265, Амстердам
       </address>
     </header>
     <main>
       <section class="main-banner">
+        <p id="main"></p>
         <div class="main_content">
           <img src="images/cover.jpg" alt="главная картинка" class="main-img" />
           <h1 class="h1_section1">
@@ -52,6 +52,7 @@
           <button class="text_stavka">сделать ставку</button>
         </div>
       </section>
+      <p id="lots"></p>
       <section class="section_lots">
         <h1 class="lots">ЛОТЫ</h1>
         <ul class="section2_ul">
@@ -126,6 +127,7 @@
         </ul>
         <p class="text_look">посмотреть больше</p>
       </section>
+      <p id="auction"></p>
       <section class="about_auction_main">
         <div class="circle">
           <img class="logo_2" src="images/logo-white.svg" alt="Логотип" />
@@ -155,10 +157,10 @@
     </main>
     <footer class="footer">
       <div class="footer_information">
-        <address class="address_footer">
-          <a href="tel:+99995555555">+9 999 555 5555</a>
+        <address class="address">
+          <a href="tel:+99995555555" class="telefon-mail">+9 999 555 5555</a>
           <br />
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <a href="mailto:info@sobaka.ge" class="telefon-mail">info@sobaka.ge</a>
           <br />
           наб. Принсенграхт 263-265,<br />
           Амстердам
@@ -166,9 +168,9 @@
       </div>
       <div class="footer_list">
         <ul class="footer_ul">
-          <li class="header__links-list-item">главная</li>
-          <li class="header__links-list-item">посмотреть лоты</li>
-          <li class="header__links-list-item">об аукционе</li>
+          <li class="header__links-list-item"><a href="#main" class="text-main">главная</a></li>
+          <li class="header__links-list-item"><a href="#lots" class="text-either">посмотреть лоты</a></li>
+          <li class="header__links-list-item"><a href="#auction" class="text-either">об аукционе</a></li>
         </ul>
       </div>
       <div class="footer_logo_list">
