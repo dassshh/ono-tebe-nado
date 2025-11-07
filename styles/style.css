@@ -68,7 +68,7 @@ img {
   justify-self:end;
 }
 .address.adress-header {
-  margin-right: 55px;
+  margin-right: 60px;
 }
 .main_content {
   position: relative;
@@ -135,7 +135,7 @@ img {
   text-transform: uppercase;
   color: white;
   position: absolute;
-  margin: 630px 413px 61px 50px;
+  margin: 627px 413px 61px 50px;
   word-spacing: 20px;
   white-space: nowrap;
   z-index: 1;
@@ -150,16 +150,16 @@ img {
   border: 1px solid rgba(255, 255, 255, 1);
   padding: 12px 32px 11px 31px;
   position: absolute;
-  margin: 615px 50px 50px 794px;
+  margin: 614px 50px 50px 794px;
   white-space: nowrap;
   z-index: 1;
 }
 .section_lots {
-  margin: 175px 24px 27px 24px;
+  margin: 180px 24px 27px 24px;
 }
 .lots {
   font-size: 40px;
-  margin-left: 80px;
+  margin-left: 60px;
   font-weight: 700;
   font-style: Bold;
   line-height: 100%;
@@ -296,7 +296,7 @@ color: white;
   display: flex;
   align-items: center;
   gap: 72px;
-  margin: 75px 24px 0px 24px;
+  margin: 85px 24px 0px 24px;
 }
 .circle {
   position: absolute;
@@ -345,7 +345,7 @@ color: white;
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 200px 50px 82px 50px;
+  margin: 190px 50px 82px 50px;
 }
 .footer_ul {
   display: flex;
