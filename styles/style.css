@@ -21,7 +21,7 @@ img {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  margin: 90px 50px 96px 50px;
+  margin: 89px 50px 96px 50px;
 }
 .header__menu {
   margin-right:36.52px;
@@ -135,7 +135,7 @@ img {
   text-transform: uppercase;
   color: white;
   position: absolute;
-  margin: 638px 413px 61px 50px;
+  margin: 630px 413px 61px 50px;
   word-spacing: 20px;
   white-space: nowrap;
   z-index: 1;
@@ -150,16 +150,16 @@ img {
   border: 1px solid rgba(255, 255, 255, 1);
   padding: 12px 32px 11px 31px;
   position: absolute;
-  margin: 620px 50px 50px 794px;
+  margin: 615px 50px 50px 794px;
   white-space: nowrap;
   z-index: 1;
 }
 .section_lots {
-  margin: 178px 24px 27px 24px;
+  margin: 175px 24px 27px 24px;
 }
 .lots {
   font-size: 40px;
-  margin-left: 70px;
+  margin-left: 80px;
   font-weight: 700;
   font-style: Bold;
   line-height: 100%;
@@ -296,7 +296,7 @@ color: white;
   display: flex;
   align-items: center;
   gap: 72px;
-  margin: 80px 24px 0px 24px;
+  margin: 75px 24px 0px 24px;
 }
 .circle {
   position: absolute;
