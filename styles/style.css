@@ -68,7 +68,7 @@ img {
   justify-self:end;
 }
 .address.adress-header {
-  margin-right: 60px;
+  margin-right: 50px;
 }
 .main_content {
   position: relative;
@@ -115,16 +115,22 @@ img {
   text-align: center;
 }
 .it {
+  display: flex;
+  justify-content: space-between;
   width: 286px;
-  transform: translate(-360px, 145px);
+  transform: translate(-358px, 144px);
 }
 .you {
-  width: 339px;
-  transform: translate(10px, 280px);
+  display: flex;
+  justify-content: space-between;
+  width: 385px;
+  transform: translate(5px, 281px);
 }
 .need {
+  display: flex;
+  justify-content: space-between;
   width: 387px;
-  transform: translate(310px, 418px);
+  transform: translate(315px, 420px);
 }
 .text_auction {
   font-weight: 400;
@@ -135,10 +141,13 @@ img {
   text-transform: uppercase;
   color: white;
   position: absolute;
-  margin: 627px 413px 61px 50px;
+  margin: 629px 413px 61px 50px;
   word-spacing: 20px;
   white-space: nowrap;
   z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  width: 637px;
 }
 .text_stavka {
   font-weight: 256;
@@ -150,16 +159,16 @@ img {
   border: 1px solid rgba(255, 255, 255, 1);
   padding: 12px 32px 11px 31px;
   position: absolute;
-  margin: 614px 50px 50px 794px;
+  margin: 615px 50px 50px 794px;
   white-space: nowrap;
   z-index: 1;
 }
 .section_lots {
-  margin: 180px 24px 27px 24px;
+  margin: 182px 24px 27px 24px;
 }
 .lots {
   font-size: 40px;
-  margin-left: 60px;
+  margin-left: 55px;
   font-weight: 700;
   font-style: Bold;
   line-height: 100%;
@@ -211,6 +220,7 @@ color: white;
 .content1,
 .content2,
 .content3 {
+  margin-top: 3px;
   position: relative;
   width: 334px;
   height: 596px;
@@ -288,7 +298,7 @@ color: white;
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
-  margin: 22px 820px 0px 32px;
+  margin: 20px 820px 0px 35px;
   white-space: nowrap;
   border-bottom: 1px solid black;
 }
@@ -296,7 +306,7 @@ color: white;
   display: flex;
   align-items: center;
   gap: 72px;
-  margin: 85px 24px 0px 24px;
+  margin: 82px 24px 0px 24px;
 }
 .circle {
   position: absolute;
@@ -304,7 +314,7 @@ color: white;
   height: 240px;
   background-color: black;
   border-radius: 100%;
-  margin: 35px 765px 320px 47px;
+  margin: 38px 765px 320px 47px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -315,7 +325,7 @@ color: white;
   height: 114x;
 }
 .about-content {
-  padding: 133px 0px 13px 359px;
+  padding: 137px 0px 13px 359px;
 }
 .about_auction {
   font-weight: 700;
@@ -345,7 +355,8 @@ color: white;
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 190px 50px 82px 50px;
+  margin: 180px 50px 82px 50px;
+  padding-bottom:82px;
 }
 .footer_ul {
   display: flex;
