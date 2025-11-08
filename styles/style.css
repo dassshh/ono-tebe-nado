@@ -21,10 +21,10 @@ img {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  margin: 89px 50px 96px 50px;
+  margin: 89px 50px 95px 50px;
 }
 .header__menu {
-  margin-right:36.52px;
+  margin-right:35.52px;
   margin-left:-40px;
 }
 .header__links-list {
@@ -48,6 +48,7 @@ img {
   color:black;
 }
 .header__logo-image {
+  padding-top: 5px;
   width: 148px;
   height: 105px;
 }
@@ -68,7 +69,7 @@ img {
   justify-self:end;
 }
 .address.adress-header {
-  margin-right: 50px;
+  margin-right: 45px;
 }
 .main_content {
   position: relative;
@@ -141,7 +142,7 @@ img {
   text-transform: uppercase;
   color: white;
   position: absolute;
-  margin: 629px 413px 61px 50px;
+  margin: 630px 413px 61px 50px;
   word-spacing: 20px;
   white-space: nowrap;
   z-index: 1;
@@ -159,7 +160,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 1);
   padding: 12px 32px 11px 31px;
   position: absolute;
-  margin: 615px 50px 50px 794px;
+  margin: 616px 50px 50px 794px;
   white-space: nowrap;
   z-index: 1;
 }
@@ -168,7 +169,7 @@ img {
 }
 .lots {
   font-size: 40px;
-  margin-left: 55px;
+  margin-left: 50px;
   font-weight: 700;
   font-style: Bold;
   line-height: 100%;
@@ -220,7 +221,7 @@ color: white;
 .content1,
 .content2,
 .content3 {
-  margin-top: 3px;
+  margin-top: 4px;
   position: relative;
   width: 334px;
   height: 596px;
@@ -267,7 +268,7 @@ color: white;
 .text_lection {
   position: absolute;
   z-index: 1;
-  padding: 394px 40px 48px 40px;
+  padding: 396px 40px 48px 40px;
 }
 .text_book {
   position: absolute;
@@ -298,7 +299,7 @@ color: white;
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
-  margin: 20px 820px 0px 35px;
+  margin: 18px 820px 0px 33px;
   white-space: nowrap;
   border-bottom: 1px solid black;
 }
@@ -306,7 +307,7 @@ color: white;
   display: flex;
   align-items: center;
   gap: 72px;
-  margin: 82px 24px 0px 24px;
+  margin: 80px 24px 0px 24px;
 }
 .circle {
   position: absolute;
@@ -314,7 +315,7 @@ color: white;
   height: 240px;
   background-color: black;
   border-radius: 100%;
-  margin: 38px 765px 320px 47px;
+  margin: 40px 765px 320px 47px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -325,7 +326,7 @@ color: white;
   height: 114x;
 }
 .about-content {
-  padding: 137px 0px 13px 359px;
+  padding: 140px 0px 13px 359px;
 }
 .about_auction {
   font-weight: 700;
@@ -355,8 +356,7 @@ color: white;
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 180px 50px 82px 50px;
-  padding-bottom:82px;
+  margin: 165px 50px 0px 50px;
 }
 .footer_ul {
   display: flex;
