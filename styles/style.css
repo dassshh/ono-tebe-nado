@@ -24,8 +24,8 @@ img {
   margin: 89px 50px 95px 50px;
 }
 .header__menu {
-  margin-right:35.52px;
-  margin-left:-40px;
+  margin-right: 35.52px;
+  margin-left: -40px;
 }
 .header__links-list {
   display: flex;
@@ -45,31 +45,33 @@ img {
   color: black;
 }
 .text-either {
-  color:black;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
 }
 .header__logo-image {
-  padding-top: 5px;
-  width: 148px;
+  width: 150px;
   height: 105px;
 }
 .telefon-mail {
-  color:black;
+  color: black;
   text-decoration: none;
   border-bottom: 1px solid black;
 }
 
 .address {
-  font-style:normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 0%;
   white-space: nowrap;
-  color:black;
-  justify-self:end;
+  color: black;
+  justify-self: end;
 }
 .address.adress-header {
-  margin-right: 45px;
+  margin-right: 42px;
 }
 .main_content {
   position: relative;
@@ -91,7 +93,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 .h1_section1 {
   position: relative;
@@ -119,19 +121,19 @@ img {
   display: flex;
   justify-content: space-between;
   width: 286px;
-  transform: translate(-358px, 144px);
+  transform: translate(-359px, 143px);
 }
 .you {
   display: flex;
   justify-content: space-between;
   width: 385px;
-  transform: translate(5px, 281px);
+  transform: translate(0px, 282px);
 }
 .need {
   display: flex;
   justify-content: space-between;
   width: 387px;
-  transform: translate(315px, 420px);
+  transform: translate(318px, 423px);
 }
 .text_auction {
   font-weight: 400;
@@ -142,7 +144,7 @@ img {
   text-transform: uppercase;
   color: white;
   position: absolute;
-  margin: 630px 413px 61px 50px;
+  margin: 632px 413px 61px 50px;
   word-spacing: 20px;
   white-space: nowrap;
   z-index: 1;
@@ -160,16 +162,16 @@ img {
   border: 1px solid rgba(255, 255, 255, 1);
   padding: 12px 32px 11px 31px;
   position: absolute;
-  margin: 616px 50px 50px 794px;
+  margin: 617px 50px 50px 794px;
   white-space: nowrap;
   z-index: 1;
 }
 .section_lots {
-  margin: 182px 24px 27px 24px;
+  margin: 183px 24px 27px 24px;
 }
 .lots {
   font-size: 40px;
-  margin-left: 50px;
+  margin-left: 48px;
   font-weight: 700;
   font-style: Bold;
   line-height: 100%;
@@ -184,7 +186,7 @@ img {
   margin: 0;
 }
 .section2_li {
-  flex:1;
+  flex: 1;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -194,29 +196,30 @@ img {
 .text_film,
 .text_book,
 .text_picture {
+  text-decoration: underline;
   font-family: Raleway;
-font-weight: 700;
-font-style: Bold;
-font-size: 22px;
-line-height: 120%;
-letter-spacing: 0%;
-text-transform: uppercase;
-text-decoration: underline;
-text-decoration-style: solid;
-text-decoration-thickness: 0%;
-color: white;
-
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  color: white;
 }
 .text_lection,
 .text_pages,
 .text_actually {
+  font-family: Raleway;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
+  leading-trim: NONE;
   line-height: 120%;
   letter-spacing: 0%;
-  color: white;
   text-align: left;
+  color: white;
 }
 .content1,
 .content2,
@@ -240,7 +243,7 @@ color: white;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 .content2::after {
   content: "";
@@ -249,7 +252,7 @@ color: white;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 .content3::after {
   content: "";
@@ -258,7 +261,7 @@ color: white;
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 .text_film {
   position: absolute;
@@ -301,13 +304,15 @@ color: white;
   letter-spacing: 0%;
   margin: 18px 820px 0px 33px;
   white-space: nowrap;
-  border-bottom: 1px solid black;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 .about_auction_main {
   display: flex;
   align-items: center;
   gap: 72px;
-  margin: 80px 24px 0px 24px;
+  margin: 82px 24px 0px 24px;
 }
 .circle {
   position: absolute;
@@ -326,7 +331,7 @@ color: white;
   height: 114x;
 }
 .about-content {
-  padding: 140px 0px 13px 359px;
+  padding: 143px 0px 13px 359px;
 }
 .about_auction {
   font-weight: 700;
@@ -356,9 +361,10 @@ color: white;
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 165px 50px 0px 50px;
+  margin: 164px 50px 0px 50px;
 }
 .footer_ul {
+  gap:4px;
   display: flex;
   list-style: none;
   flex-direction: column;
@@ -371,9 +377,9 @@ color: white;
   line-height: 24.3px;
   letter-spacing: 0%;
   white-space: nowrap;
-  margin-right:154.03;
+  margin-right: 154.03;
 }
- .footer_logo_ul {
+.footer_logo_ul {
   display: flex;
   gap: 48px;
   list-style: none;
