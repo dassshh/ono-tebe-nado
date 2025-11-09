@@ -26,11 +26,13 @@ img {
 .header__menu {
   margin-right: 35.52px;
   margin-left: -40px;
+
 }
 .header__links-list {
   display: flex;
   list-style: none;
   gap: 32px;
+ 
 }
 .header__links-list-item {
   font-weight: 400;
@@ -39,6 +41,9 @@ img {
   line-height: 100%;
   letter-spacing: 0%;
   white-space: nowrap;
+}
+.header__links-list-item:nth-child(n+2) {
+  list-style:circle;
 }
 .text-main {
   text-decoration: none;
@@ -49,9 +54,11 @@ img {
   text-decoration: none;
   border-bottom: 1px solid black;
   padding-bottom: 1px;
+
 }
 .header__logo-image {
-  width: 150px;
+  padding-top:5px;
+  width: 148px;
   height: 105px;
 }
 .telefon-mail {
@@ -71,7 +78,7 @@ img {
   justify-self: end;
 }
 .address.adress-header {
-  margin-right: 42px;
+  margin-right: 40px;
 }
 .main_content {
   position: relative;
@@ -115,36 +122,35 @@ img {
   color: white;
   position: absolute;
   width: 100%;
-  text-align: center;
 }
 .it {
   display: flex;
-  justify-content: space-between;
   width: 286px;
   transform: translate(-359px, 143px);
+  letter-spacing:30px;
 }
 .you {
   display: flex;
-  justify-content: space-between;
   width: 385px;
   transform: translate(0px, 282px);
+  letter-spacing:30px;
 }
 .need {
   display: flex;
-  justify-content: space-between;
   width: 387px;
   transform: translate(318px, 423px);
+  letter-spacing:30px;
 }
 .text_auction {
   font-weight: 400;
   font-style: Regular;
   font-size: 22px;
   line-height: 28px;
-  letter-spacing: 0%;
+  letter-spacing: 0.2px;
   text-transform: uppercase;
   color: white;
   position: absolute;
-  margin: 632px 413px 61px 50px;
+  margin: 635px 413px 61px 50px;
   word-spacing: 20px;
   white-space: nowrap;
   z-index: 1;
@@ -162,7 +168,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 1);
   padding: 12px 32px 11px 31px;
   position: absolute;
-  margin: 617px 50px 50px 794px;
+  margin: 618px 50px 50px 794px;
   white-space: nowrap;
   z-index: 1;
 }
@@ -171,7 +177,7 @@ img {
 }
 .lots {
   font-size: 40px;
-  margin-left: 48px;
+  margin-left: 46px;
   font-weight: 700;
   font-style: Bold;
   line-height: 100%;
@@ -215,7 +221,6 @@ img {
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
-  leading-trim: NONE;
   line-height: 120%;
   letter-spacing: 0%;
   text-align: left;
@@ -266,28 +271,28 @@ img {
 .text_film {
   position: absolute;
   z-index: 1;
-  padding: 30px 40px 466px 40px;
+  padding: 31px 40px 466px 40px;
 }
 .text_lection {
   position: absolute;
   z-index: 1;
-  padding: 396px 40px 48px 40px;
+  padding: 400px 40px 48px 40px;
 }
 .text_book {
   position: absolute;
   z-index: 1;
-  padding: 30px 40px 438px 40px;
+  padding: 31px 40px 438px 40px;
 }
 .text_pages {
   position: absolute;
   z-index: 1;
-  padding: 170px 40px 48px 40px;
+  padding: 171px 40px 48px 40px;
 }
 
 .text_picture {
   position: absolute;
   z-index: 1;
-  padding: 30px 40px 438px 40px;
+  padding: 31px 40px 438px 40px;
 }
 
 .text_actually {
@@ -302,7 +307,7 @@ img {
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
-  margin: 18px 820px 0px 33px;
+  margin: 17px 820px 0px 35px;
   white-space: nowrap;
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -312,7 +317,7 @@ img {
   display: flex;
   align-items: center;
   gap: 72px;
-  margin: 82px 24px 0px 24px;
+  margin: 83px 24px 0px 24px;
 }
 .circle {
   position: absolute;
@@ -351,6 +356,7 @@ img {
   letter-spacing: 0%;
 }
 .text_hard {
+  margin-top:5px;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
@@ -361,7 +367,7 @@ img {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 164px 50px 0px 50px;
+  margin: 162px 50px 0px 50px;
 }
 .footer_ul {
   gap:4px;
