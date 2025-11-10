@@ -58,8 +58,8 @@ img {
 }
 .header__logo-image {
   padding-top:5px;
-  width: 148px;
-  height: 105px;
+  width: 147px;
+  height: 104px;
 }
 .telefon-mail {
   color: black;
@@ -78,8 +78,7 @@ img {
   justify-self: end;
 }
 .address.adress-header {
-  margin-right: 38px;
-  margin-top:1px;
+  margin-right: 39px;
 }
 .main_content {
   position: relative;
@@ -127,19 +126,19 @@ img {
 .it {
   display: flex;
   width: 286px;
-  transform: translate(-360px, 142px);
+  transform: translate(-358px, 144px);
   letter-spacing:30px;
 }
 .you {
   display: flex;
   width: 385px;
-  transform: translate(-15px, 283px);
+  transform: translate(25px, 282px);
   letter-spacing:30px;
 }
 .need {
   display: flex;
   width: 387px;
-  transform: translate(322px, 426px);
+  transform: translate(310px, 420px);
   letter-spacing:30px;
 }
 .text_auction {
@@ -147,11 +146,10 @@ img {
   font-style: Regular;
   font-size: 22px;
   line-height: 28px;
-  letter-spacing: 0.2px;
   text-transform: uppercase;
   color: white;
   position: absolute;
-  margin: 640px 413px 61px 50px;
+  margin: 645px 413px 61px 50px;
   word-spacing: 20px;
   white-space: nowrap;
   z-index: 1;
@@ -167,7 +165,7 @@ img {
   color: white;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 1);
-  padding: 12px 32px 11px 31px;
+  padding: 15px 32px 11px 31px;
   position: absolute;
   margin: 620px 50px 50px 794px;
   white-space: nowrap;
@@ -178,7 +176,7 @@ img {
 }
 .lots {
   font-size: 40px;
-  margin-left: 44px;
+  margin-left: 45px;
   font-weight: 700;
   font-style: Bold;
   line-height: 100%;
@@ -272,34 +270,34 @@ img {
 .text_film {
   position: absolute;
   z-index: 1;
-  padding: 33px 40px 466px 40px;
+  padding: 30px 40px 466px 40px;
 }
 .text_lection {
   position: absolute;
   z-index: 1;
-  padding: 410px 40px 48px 40px;
+  padding: 380px 40px 48px 40px;
 }
 .text_book {
   position: absolute;
   z-index: 1;
-  padding: 33px 40px 438px 40px;
+  padding: 30px 40px 438px 40px;
 }
 .text_pages {
   position: absolute;
   z-index: 1;
-  padding: 172px 40px 48px 40px;
+  padding: 169px 40px 48px 40px;
 }
 
 .text_picture {
   position: absolute;
   z-index: 1;
-  padding: 33px 40px 438px 40px;
+  padding: 30px 40px 438px 40px;
 }
 
 .text_actually {
   position: absolute;
   z-index: 1;
-  padding: 264px 40px 48px 40px;
+  padding: 265px 40px 48px 40px;
 }
 .text_look {
   font-family: Raleway;
@@ -308,7 +306,7 @@ img {
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
-  margin: 15px 820px 0px 37px;
+  margin: 17px 820px 0px 36px;
   white-space: nowrap;
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -318,7 +316,7 @@ img {
   display: flex;
   align-items: center;
   gap: 72px;
-  margin: 84px 24px 0px 24px;
+  margin: 85px 24px 0px 24px;
 }
 .circle {
   position: absolute;
@@ -326,7 +324,7 @@ img {
   height: 240px;
   background-color: black;
   border-radius: 100%;
-  margin: 40px 765px 320px 47px;
+  margin: 43px 765px 320px 47px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -337,7 +335,7 @@ img {
   height: 114x;
 }
 .about-content {
-  padding: 143px 0px 13px 359px;
+  padding: 140px 0px 13px 359px;
 }
 .about_auction {
   font-weight: 700;
@@ -350,7 +348,7 @@ img {
   white-space: nowrap;
 }
 .text_here {
-  margin-top:2px;
+  margin-top:0px;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
@@ -358,7 +356,7 @@ img {
   letter-spacing: 0%;
 }
 .text_hard {
-  margin-top:7px;
+  margin-top:5px;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
@@ -369,10 +367,10 @@ img {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 161px 50px 0px 50px;
+  margin: 163px 50px 0px 50px;
 }
 .footer_ul {
-  gap:4px;
+  gap:2px;
   display: flex;
   list-style: none;
   flex-direction: column;
@@ -396,7 +394,7 @@ img {
 .footer_list_li2 {
   width: 48px;
 }
-.header__links-list-item-footer{
+.header__links-list-item-footer {
   font-weight: 400;
   font-style: Regular;
   font-size: 18px;
