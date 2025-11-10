@@ -78,7 +78,8 @@ img {
   justify-self: end;
 }
 .address.adress-header {
-  margin-right: 40px;
+  margin-right: 38px;
+  margin-top:1px;
 }
 .main_content {
   position: relative;
@@ -126,19 +127,19 @@ img {
 .it {
   display: flex;
   width: 286px;
-  transform: translate(-359px, 143px);
+  transform: translate(-360px, 142px);
   letter-spacing:30px;
 }
 .you {
   display: flex;
   width: 385px;
-  transform: translate(0px, 282px);
+  transform: translate(-15px, 283px);
   letter-spacing:30px;
 }
 .need {
   display: flex;
   width: 387px;
-  transform: translate(318px, 423px);
+  transform: translate(322px, 426px);
   letter-spacing:30px;
 }
 .text_auction {
@@ -150,7 +151,7 @@ img {
   text-transform: uppercase;
   color: white;
   position: absolute;
-  margin: 635px 413px 61px 50px;
+  margin: 640px 413px 61px 50px;
   word-spacing: 20px;
   white-space: nowrap;
   z-index: 1;
@@ -168,7 +169,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 1);
   padding: 12px 32px 11px 31px;
   position: absolute;
-  margin: 618px 50px 50px 794px;
+  margin: 620px 50px 50px 794px;
   white-space: nowrap;
   z-index: 1;
 }
@@ -177,7 +178,7 @@ img {
 }
 .lots {
   font-size: 40px;
-  margin-left: 46px;
+  margin-left: 44px;
   font-weight: 700;
   font-style: Bold;
   line-height: 100%;
@@ -271,28 +272,28 @@ img {
 .text_film {
   position: absolute;
   z-index: 1;
-  padding: 31px 40px 466px 40px;
+  padding: 33px 40px 466px 40px;
 }
 .text_lection {
   position: absolute;
   z-index: 1;
-  padding: 400px 40px 48px 40px;
+  padding: 410px 40px 48px 40px;
 }
 .text_book {
   position: absolute;
   z-index: 1;
-  padding: 31px 40px 438px 40px;
+  padding: 33px 40px 438px 40px;
 }
 .text_pages {
   position: absolute;
   z-index: 1;
-  padding: 171px 40px 48px 40px;
+  padding: 172px 40px 48px 40px;
 }
 
 .text_picture {
   position: absolute;
   z-index: 1;
-  padding: 31px 40px 438px 40px;
+  padding: 33px 40px 438px 40px;
 }
 
 .text_actually {
@@ -307,7 +308,7 @@ img {
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
-  margin: 17px 820px 0px 35px;
+  margin: 15px 820px 0px 37px;
   white-space: nowrap;
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -317,7 +318,7 @@ img {
   display: flex;
   align-items: center;
   gap: 72px;
-  margin: 83px 24px 0px 24px;
+  margin: 84px 24px 0px 24px;
 }
 .circle {
   position: absolute;
@@ -349,6 +350,7 @@ img {
   white-space: nowrap;
 }
 .text_here {
+  margin-top:2px;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
@@ -356,7 +358,7 @@ img {
   letter-spacing: 0%;
 }
 .text_hard {
-  margin-top:5px;
+  margin-top:7px;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
@@ -367,7 +369,7 @@ img {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 162px 50px 0px 50px;
+  margin: 161px 50px 0px 50px;
 }
 .footer_ul {
   gap:4px;
@@ -393,4 +395,12 @@ img {
 }
 .footer_list_li2 {
   width: 48px;
+}
+.header__links-list-item-footer{
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  white-space: nowrap;
 }
