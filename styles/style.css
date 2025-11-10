@@ -24,7 +24,6 @@ img {
   margin: 89px 50px 95px 50px;
 }
 .header__menu {
-  margin-top:-1px;
   margin-right: 35.52px;
   margin-left: -40px;
 
@@ -59,8 +58,8 @@ img {
 }
 .header__logo-image {
   padding-top:5px;
-  width: 145px;
-  height: 100px;
+  width: 150px;
+  height: 107px;
 }
 .telefon-mail {
   color: black;
@@ -79,8 +78,7 @@ img {
   justify-self: end;
 }
 .address.adress-header {
-  margin-top:-1px;
-  margin-right: 40px;
+  margin-right: 39px;
 }
 .main_content {
   position: relative;
@@ -128,13 +126,13 @@ img {
 .it {
   display: flex;
   width: 286px;
-  transform: translate(-357px, 145px);
+  transform: translate(-357px, 146px);
   letter-spacing:30px;
 }
 .you {
   display: flex;
   width: 385px;
-  transform: translate(23px, 281px);
+  transform: translate(23px, 282px);
   letter-spacing:30px;
 }
 .need {
@@ -167,7 +165,7 @@ img {
   color: white;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 1);
-  padding: 14px 32px 11px 31px;
+  padding: 15px 32px 11px 31px;
   position: absolute;
   margin: 615px 50px 50px 794px;
   white-space: nowrap;
@@ -178,7 +176,7 @@ img {
 }
 .lots {
   font-size: 40px;
-  margin-left: 47px;
+  margin-left: 46px;
   font-weight: 700;
   font-style: Bold;
   line-height: 100%;
@@ -318,7 +316,7 @@ img {
   display: flex;
   align-items: center;
   gap: 72px;
-  margin: 87px 24px 0px 24px;
+  margin: 80px 24px 0px 24px;
 }
 .circle {
   position: absolute;
@@ -326,7 +324,7 @@ img {
   height: 240px;
   background-color: black;
   border-radius: 100%;
-  margin: 40px 765px 320px 47px;
+  margin: 47px 765px 320px 47px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -346,7 +344,7 @@ img {
   line-height: 100%;
   letter-spacing: 0%;
   text-transform: uppercase;
-  padding: 0px 402px 75px 0px;
+  padding: 10px 402px 75px 0px;
   white-space: nowrap;
 }
 .text_here {
@@ -358,7 +356,7 @@ img {
   letter-spacing: 0%;
 }
 .text_hard {
-  margin-top:2px;
+  margin-top:0px;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
