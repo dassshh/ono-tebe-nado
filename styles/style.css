@@ -58,8 +58,8 @@ img {
 }
 .header__logo-image {
   padding-top:5px;
-  width: 150px;
-  height: 107px;
+  width: 152px;
+  height: 109px;
 }
 .telefon-mail {
   color: black;
@@ -316,7 +316,7 @@ img {
   display: flex;
   align-items: center;
   gap: 72px;
-  margin: 80px 24px 0px 24px;
+  margin: 81px 24px 0px 24px;
 }
 .circle {
   position: absolute;
@@ -324,7 +324,7 @@ img {
   height: 240px;
   background-color: black;
   border-radius: 100%;
-  margin: 47px 765px 320px 47px;
+  margin: 45px 765px 320px 47px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -356,7 +356,7 @@ img {
   letter-spacing: 0%;
 }
 .text_hard {
-  margin-top:0px;
+  margin-top:2px;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
@@ -367,7 +367,7 @@ img {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 163px 50px 0px 50px;
+  margin: 160px 50px 0px 50px;
 }
 .footer_ul {
   gap:2px;
