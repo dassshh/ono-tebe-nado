@@ -21,13 +21,12 @@ img {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  width: 1100;
-  height: 293;
-  margin:15px 86px 92px 10px;
+  margin:15px 80px 92px 10px;
 }
 .header__links-list {
   display: flex;
-  list-style: none;
+  justify-content: space-between;
+  list-style:none;
   gap: 33px;
 }
 .header__links-list-item {
@@ -37,10 +36,11 @@ img {
   line-height: 100%;
   letter-spacing: 0%;
   white-space: nowrap;
-  padding-top:74px;
+  padding-top:72px;
 }
 .header__links-list-item:nth-child(n+2) {
-  list-style-type:circle;
+  list-style:circle;
+  margin-left: -2px;
 }
 .text-main {
   text-decoration: none;
@@ -50,11 +50,11 @@ img {
   color: black;
   text-decoration: underline;
   text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
-
+  text-underline-offset: 4px;
+  padding-right: 4px;
 }
 .header__logo {
-    padding-left:38px;
+    padding-left:33px;
     margin-top:77px;
 }
 .header__logo-image {
@@ -78,7 +78,8 @@ img {
   justify-self: end;
 }
 .address.adress-header {
-  padding-top:74px;
+  padding-top:73px;
+  margin-right:6px;
 }
 .main_content {
   position: relative;
@@ -132,13 +133,13 @@ img {
 .you {
   display: flex;
   width: 385px;
-  transform: translate(23px, 282px);
+  transform: translate(23px, 281px);
   letter-spacing:30px;
 }
 .need {
   display: flex;
   width: 387px;
-  transform: translate(307px, 415px);
+  transform: translate(307px, 416px);
   letter-spacing:30px;
 }
 .text_auction {
@@ -149,9 +150,9 @@ img {
   text-transform: uppercase;
   color: white;
   position: absolute;
-  margin: 628px 0px 61px 21px;
-  padding-left:29px;
-  word-spacing: 20px;
+  top: 648px;
+  left: 48px;
+  word-spacing: 19px;
   white-space: nowrap;
   z-index: 1;
 
@@ -164,16 +165,20 @@ img {
   color: white;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 1);
-  padding: 13px 32px 11px 31px;
+  padding:12px 32px 11px 31px;
   position: absolute;
-  margin: 615px 50px 50px 794px;
+  position: absolute;
+  top: 655px;
+  left: 793px;
   white-space: nowrap;
   z-index: 1;
 }
 .section_lots {
-  padding: 135px 24px 27px 24px;
+  margin: 180px 24px 27px 24px;
 }
 .lots {
+  padding-top:4px;
+  margin-bottom:30px;
   font-size: 40px;
   margin-left: 40px;
   font-weight: 700;
@@ -183,7 +188,6 @@ img {
   text-transform: uppercase;
 }
 .section2_ul {
-
   display: flex;
   gap: 25px;
   list-style: none;
@@ -191,7 +195,6 @@ img {
   margin: 0;
 }
 .section2_li {
-  flex: 1;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -268,32 +271,32 @@ img {
 .text_film {
   position: absolute;
   z-index: 1;
-  padding: 22px 40px 466px 40px;
+  padding: 25px 40px 466px 40px;
 }
 .text_lection {
   position: absolute;
   z-index: 1;
-  padding: 382px 40px 48px 40px;
+  padding: 384px 40px 48px 40px;
 }
 .text_book {
   position: absolute;
   z-index: 1;
-  padding: 22px 40px 438px 40px;
+  padding: 25px 40px 438px 40px;
 }
 .text_pages {
   position: absolute;
   z-index: 1;
-  padding: 1690px 40px 48px 40px;
+  padding: 169px 40px 48px 40px;
 }
 .text_picture {
   position: absolute;
   z-index: 1;
-  padding: 22px 40px 438px 40px;
+  padding: 25px 40px 438px 40px;
 }
 .text_actually {
   position: absolute;
   z-index: 1;
-  padding: 262px 40px 48px 40px;
+  padding: 264px 40px 48px 40px;
 }
 .text_look {
   font-family: Raleway;
@@ -302,16 +305,17 @@ img {
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
-  margin: 30px 820px 0px 39px;
+  margin: 32px 820px 0px 39px;
   white-space: nowrap;
   text-decoration: underline;
   text-decoration-thickness: 1px;
-  text-underline-offset: 4px;
+  text-underline-offset: 5px;
 }
 .about_auction_main {
+  position: relative;
   display: flex;
   gap: 72px;
-  margin: 50px 24px 0px 24px;
+  margin: 78px 24px 0px 24px;
 }
 .circle {
   position: absolute;
@@ -319,10 +323,10 @@ img {
   height: 240px;
   background-color: black;
   border-radius: 100%;
-  margin: 78px 765px 320px 47px;
+  top: 78px;
+  right:765px;
   display: flex;
   justify-content: center;
-  align-items: center;
   overflow: hidden;
 }
 .logo_2 {
@@ -333,38 +337,36 @@ img {
   margin: 144px 0px 0px 359px;
 }
 .about_auction {
-  font-weight: 700;
   font-style: Bold;
   font-size: 40px;
   line-height: 100%;
   letter-spacing: 0%;
   text-transform: uppercase;
-  padding: 5px 402px 75px 0px;
-  white-space: nowrap;
+  margin-top:38px;
+
 }
 .text_here {
-  padding-top:3px;
+  margin-top:104px;
+  margin-bottom:24px;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0%;
 }
 .text_hard {
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0%;
 }
 .footer {
-  background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 157px 50px 0px 50px;
+  margin: 161px 50px 0px 50px;
 }
 .footer_list {
-  padding-top:3px;
+  margin-top:2px;
+  padding-left:8px;
 }
 .footer_ul {
   gap:3px;
@@ -400,3 +402,7 @@ img {
   white-space: nowrap;
   padding-top:0px;
 }
+.header__links-list-item-footer .text-main {
+  margin-left:-5px;
+}
+
