@@ -54,8 +54,8 @@ img {
   padding-right: 4px;
 }
 .header__logo {
-    padding-left:33px;
-    margin-top:77px;
+    padding-left:34px;
+    margin-top:78px;
 }
 .header__logo-image {
   width: 148px;
@@ -79,7 +79,7 @@ img {
 }
 .address.adress-header {
   padding-top:73px;
-  margin-right:6px;
+  margin-right:7px;
 }
 .main_content {
   position: relative;
@@ -127,35 +127,35 @@ img {
 .it {
   display: flex;
   width: 286px;
-  transform: translate(-357px, 146px);
+  transform: translate(-357px, 147px);
   letter-spacing:30px;
 }
 .you {
   display: flex;
   width: 385px;
-  transform: translate(23px, 281px);
+  transform: translate(23px, 282px);
   letter-spacing:30px;
 }
 .need {
   display: flex;
   width: 387px;
-  transform: translate(307px, 416px);
+  transform: translate(307px, 417px);
   letter-spacing:30px;
 }
 .text_auction {
-  font-weight: 400;
   font-style: Regular;
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
   color: white;
   position: absolute;
-  top: 648px;
-  left: 48px;
-  word-spacing: 19px;
+  word-spacing: 20px;
   white-space: nowrap;
   z-index: 1;
-
+  width: 637;
+  height: 28;
+  top: 668px;
+  left: 50px;
 }
 .text_stavka {
   font-weight: 256;
@@ -167,7 +167,6 @@ img {
   border: 1px solid rgba(255, 255, 255, 1);
   padding:12px 32px 11px 31px;
   position: absolute;
-  position: absolute;
   top: 655px;
   left: 793px;
   white-space: nowrap;
@@ -177,7 +176,7 @@ img {
   margin: 180px 24px 27px 24px;
 }
 .lots {
-  padding-top:4px;
+  padding-top: 3.5px;
   margin-bottom:30px;
   font-size: 40px;
   margin-left: 40px;
@@ -271,32 +270,32 @@ img {
 .text_film {
   position: absolute;
   z-index: 1;
-  padding: 25px 40px 466px 40px;
+  padding: 24.5px 40px 466px 40px;
 }
 .text_lection {
   position: absolute;
   z-index: 1;
-  padding: 384px 40px 48px 40px;
+  padding: 383.5px 40px 48px 40px;
 }
 .text_book {
   position: absolute;
   z-index: 1;
-  padding: 25px 40px 438px 40px;
+  padding: 24.5px 40px 438px 40px;
 }
 .text_pages {
   position: absolute;
   z-index: 1;
-  padding: 169px 40px 48px 40px;
+  padding: 168.5px 40px 48px 40px;
 }
 .text_picture {
   position: absolute;
   z-index: 1;
-  padding: 25px 40px 438px 40px;
+  padding: 24.5px 40px 438px 40px;
 }
 .text_actually {
   position: absolute;
   z-index: 1;
-  padding: 264px 40px 48px 40px;
+  padding: 263.5px 40px 48px 40px;
 }
 .text_look {
   font-family: Raleway;
@@ -305,7 +304,7 @@ img {
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
-  margin: 32px 820px 0px 39px;
+  margin: 31.5px 820px 0px 39px;
   white-space: nowrap;
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -346,8 +345,8 @@ img {
 
 }
 .text_here {
-  margin-top:104px;
-  margin-bottom:24px;
+  margin-top:103.5px;
+  margin-bottom:23.5px;
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
@@ -365,7 +364,7 @@ img {
   margin: 161px 50px 0px 50px;
 }
 .footer_list {
-  margin-top:2px;
+  margin-top:1.5px;
   padding-left:8px;
 }
 .footer_ul {
@@ -403,6 +402,6 @@ img {
   padding-top:0px;
 }
 .header__links-list-item-footer .text-main {
-  margin-left:-5px;
+  margin-left:-4.5px;
 }
 
